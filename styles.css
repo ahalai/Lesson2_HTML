@@ -9,10 +9,10 @@
     isolation: isolate;
 
     position: absolute;
-    width: 1296px;
     height: 136px;
     left: 20px;
     top: 20px;
+    right: 20px;
 
     /* Light / Surfaces / Header */
     background: #FFFFFF;
@@ -30,7 +30,6 @@
     padding: 0px;
     margin-bottom: 24px;
 
-    width: 1296px;
     height: 52px;
 
     /* Light/Text/Default-Text */
@@ -55,7 +54,7 @@
     margin: 8px 0px;
     gap: 222px;
 
-    width: 1296px;
+    width: 95%;
     height: 36px;
 
     /* Inside auto layout */
@@ -209,7 +208,7 @@
     margin-bottom: 24px;
     gap: 24px;
 
-    width: 1296px;
+    width: 100%;
     height: 36px;
 
     /* Inside auto layout */
@@ -256,9 +255,7 @@
     padding: 0px;
     gap: 12px;
 
-    width: 988px;
     height: 36px;
-
 
     /* Inside auto layout */
 
@@ -299,7 +296,6 @@
     /* list-nested */
     width: 20px;
     height: 20px;
-
 
     /* Inside auto layout */
 
@@ -343,7 +339,6 @@
     align-items: flex-start;
     padding: 0px;
 
-    width: 824px;
     height: 36px;
 
     /* Light/Text/Primary-Text */
@@ -366,7 +361,6 @@
     padding: 0px;
     gap: 8px;
 
-    width: 734px;
     height: 36px;
 
     border-radius: 4px 0px 0px 4px;
@@ -390,7 +384,6 @@
     padding: 8px 12px;
     gap: 12px;
 
-    width: 734px;
     height: 36px;
 
     /* Light / Forms / Background */
@@ -478,15 +471,10 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 176px 0px 0px;
-    isolation: isolate;
 
     position: relative;
-    width: 1296px;
-    height: 1784px;
 
     /* Light / Forms / Background */
-
     background: #FFFFFF;
 }
 
@@ -501,9 +489,9 @@ body {
     isolation: isolate;
 
     position: absolute;
-    width: 1296px;
     left: 20px;
     top: 156px;
+    right: 20px;
 
     /* Light / Surfaces / Header */
     background: #FFFFFF;
@@ -541,13 +529,10 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: flex-start;
     flex-wrap: wrap;
     padding: 0px;
     gap: 24px;
-
-    width: 1296px;
-    height: 336px;
-
 
     /* Inside auto layout */
 
@@ -575,7 +560,6 @@ body {
 
     flex: none;
     order: 0;
-    flex-grow: 1;
 }
 
 .main__list-element img {
