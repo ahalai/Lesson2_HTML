@@ -3,163 +3,48 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset-styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
     <title>Урок 2. Домашнее задание</title>
-
-    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header class="header">
-        <div class="header__top-line">
-            <div class="header__top-line-content">
+    <header>
+        <div class="container">
+            <div class="header__block">
+                <h3 class="header__title">Доска объявлений</h3>
                 <div class="header__buttons">
-                    <div class="header__sign-in">
-                        <img src="img/sign-in.png">
-                        <span>Войти</span>
-                    </div>
-                    <div class="header__create-advert">
-                        <span>Новое объявление</span>
-                        <img src="img/plus.svg">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="header__board-search">
-            <span>Доска объявлений</span>
-            <div class="header__filter">
-                <div class="header__categories">
-                    <img src="img/list-nested.svg">
-                    <span>Все категории</span>
-                </div>
-                <div class="header__search">
-                    <div class="header__search-input">
-                        <input type="text" placeholder="Поиск по объявлениям">
-                    </div>
-                    <div class="header__search-btn">
-                        <span>Найти</span>
-                        <img src="img/search.svg">
-                    </div>
+                    <a href="#" class="header__sign-in"><img src="img/sign-in.svg" alt="Sign in"></img> <span>Войти</span></a>
+                    <a href="#" class="header__create"><span>Новое объявление</span> <img src="img/plus.svg" alt="Create new advert"></a>
                 </div>
             </div>
         </div>
     </header>
-    <main class="main">
-        <div class="main__recomendations">
-            <p>Рекомендации для вас</p>
-            <div class="main__list">
-                <div class="main__list-element">
-                    <img src="img/picture_1.png">
-                    <div class="main__description">
-                        <div class="main__description-name">Ценная гитара</div>
-                        <div class="main__description-price">9 999 &#8381;</div>
-                        <div class="main__description-address">Москва, Ленинский проспект</div>
-                        <div class="main__description-date">Сегодня 15:55</div>
-                    </div>
+    <main>
+        <div class="container">
+            <div class="main__block">
+                <div class="main__filter">
+                    <h1 class="main__title">Доска объявлений</h1>
+                    <a href="#" class="main__categories"><img src="img/list.svg" alt="Show all categories"></img> <span>Все категории</span></a>
+                    <form class="main__search">
+                        <input class="main__search-text" placeholder="Поиск по объявлениям">
+                        <button class="main__search-confirm"><span>Найти</span> <img src="img/search.svg" alt="Search"></button>
+                    </form>
                 </div>
-                <div class="main__list-element">
-                    <img src="img/picture_2.png">
-                    <div class="main__description">
-                        <div class="main__description-name">Ценная гитара</div>
-                        <div class="main__description-price">9 000 &yen;</div>
-                        <div class="main__description-address">Севастополь, БМ</div>
-                        <div class="main__description-date">Сегодня 15:44</div>
-                    </div>
-                </div>
-                <div class="main__list-element">
-                    <img src="img/picture_1.png">
-                    <div class="main__description">
-                        <div class="main__description-name">Ценная гитара</div>
-                        <div class="main__description-price">9 999 &#8381;</div>
-                        <div class="main__description-address">Москва, Ленинский проспект</div>
-                        <div class="main__description-date">Сегодня 15:55</div>
-                    </div>
-                </div>
-                <div class="main__list-element">
-                    <img src="img/picture_2.png">
-                    <div class="main__description">
-                        <div class="main__description-name">Ценная гитара</div>
-                        <div class="main__description-price">9 000 &yen;</div>
-                        <div class="main__description-address">Севастополь, БМ</div>
-                        <div class="main__description-date">Сегодня 15:44</div>
-                    </div>
-                </div>
-                <div class="main__list-element">
-                    <img src="img/picture_1.png">
-                    <div class="main__description">
-                        <div class="main__description-name">Ценная гитара</div>
-                        <div class="main__description-price">9 999 &#8381;</div>
-                        <div class="main__description-address">Москва, Ленинский проспект</div>
-                        <div class="main__description-date">Сегодня 15:55</div>
-                    </div>
-                </div>
-                <div class="main__list-element">
-                    <img src="img/picture_2.png">
-                    <div class="main__description">
-                        <div class="main__description-name">Ценная гитара</div>
-                        <div class="main__description-price">9 000 &yen;</div>
-                        <div class="main__description-address">Севастополь, БМ</div>
-                        <div class="main__description-date">Сегодня 15:44</div>
-                    </div>
-                </div>
-                <div class="main__list-element">
-                    <img src="img/picture_1.png">
-                    <div class="main__description">
-                        <div class="main__description-name">Ценная гитара</div>
-                        <div class="main__description-price">9 999 &#8381;</div>
-                        <div class="main__description-address">Москва, Ленинский проспект</div>
-                        <div class="main__description-date">Сегодня 15:55</div>
-                    </div>
-                </div>
-                <div class="main__list-element">
-                    <img src="img/picture_2.png">
-                    <div class="main__description">
-                        <div class="main__description-name">Ценная гитара</div>
-                        <div class="main__description-price">9 000 &yen;</div>
-                        <div class="main__description-address">Севастополь, БМ</div>
-                        <div class="main__description-date">Сегодня 15:44</div>
-                    </div>
-                </div>
-                <div class="main__list-element">
-                    <img src="img/picture_1.png">
-                    <div class="main__description">
-                        <div class="main__description-name">Ценная гитара</div>
-                        <div class="main__description-price">9 999 &#8381;</div>
-                        <div class="main__description-address">Москва, Ленинский проспект</div>
-                        <div class="main__description-date">Сегодня 15:55</div>
-                    </div>
-                </div>
-                <div class="main__list-element">
-                    <img src="img/picture_2.png">
-                    <div class="main__description">
-                        <div class="main__description-name">Ценная гитара</div>
-                        <div class="main__description-price">9 000 &yen;</div>
-                        <div class="main__description-address">Севастополь, БМ</div>
-                        <div class="main__description-date">Сегодня 15:44</div>
-                    </div>
-                </div>
-                <div class="main__list-element">
-                    <img src="img/picture_1.png">
-                    <div class="main__description">
-                        <div class="main__description-name">Ценная гитара</div>
-                        <div class="main__description-price">9 999 &#8381;</div>
-                        <div class="main__description-address">Москва, Ленинский проспект</div>
-                        <div class="main__description-date">Сегодня 15:55</div>
-                    </div>
-                </div>
-                <div class="main__list-element">
-                    <img src="img/picture_2.png">
-                    <div class="main__description">
-                        <div class="main__description-name">Ценная гитара</div>
-                        <div class="main__description-price">9 000 &yen;</div>
-                        <div class="main__description-address">Севастополь, БМ</div>
-                        <div class="main__description-date">Сегодня 15:44</div>
-                    </div>
-                </div>
+                <div class="main_recommendations"> </div>
             </div>
         </div>
     </main>
+    <footer>
+        <div class="container">
+            <div class="footer__block">
+                Тут был футер, но это не точно.
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
